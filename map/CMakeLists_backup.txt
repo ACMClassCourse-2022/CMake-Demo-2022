@@ -1,0 +1,4 @@
+file(GLOB_RECURSE FILES "*.cpp")
+add_library(libmap ${FILES})
+target_include_directories(libmap PUBLIC include)
+target_link_libraries(libmap PUBLIC libint)

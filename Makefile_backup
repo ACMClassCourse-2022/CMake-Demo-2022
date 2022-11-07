@@ -1,0 +1,13 @@
+.PHONY: build configure run test clean
+
+build: configure
+	cmake --build build
+
+configure:
+	cmake -B build 
+
+run:
+	./build/answer_app
+
+clean:
+	rm -rf build

@@ -1,0 +1,2 @@
+add_library(libint int2048.cpp)
+target_include_directories(libint PUBLIC include)

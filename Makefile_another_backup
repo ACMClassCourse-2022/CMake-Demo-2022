@@ -1,0 +1,15 @@
+int2048.o: int2048/int2048.cpp
+	clang++ -Iint2048/include -c int2048/int2048.cpp -o int2048.o
+map.o: map/map.cpp
+	clang++ -Imap/include -Iint2048/include -c map/map.cpp -o map.o
+set.o: set/set.cpp
+	clang++ -Iset/include -c set/set.cpp -o set.o
+main.o: main.cpp
+	clang++ -Iint2048/include -Iset/include -Imap/include -c main.cpp -o main.o
+
+demo: map.o main.o set.o int2048.o
+	clang++ -o demo main.o map.o set.o int2048.o
+
+.PHONY: clean
+clean: 
+	rm *.o demo

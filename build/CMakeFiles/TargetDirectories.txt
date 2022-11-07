@@ -1,0 +1,12 @@
+/Users/celve/Repositories/Works/CMake-Demo-2022/build/CMakeFiles/demo.dir
+/Users/celve/Repositories/Works/CMake-Demo-2022/build/CMakeFiles/edit_cache.dir
+/Users/celve/Repositories/Works/CMake-Demo-2022/build/CMakeFiles/rebuild_cache.dir
+/Users/celve/Repositories/Works/CMake-Demo-2022/build/int2048/CMakeFiles/libint.dir
+/Users/celve/Repositories/Works/CMake-Demo-2022/build/int2048/CMakeFiles/edit_cache.dir
+/Users/celve/Repositories/Works/CMake-Demo-2022/build/int2048/CMakeFiles/rebuild_cache.dir
+/Users/celve/Repositories/Works/CMake-Demo-2022/build/map/CMakeFiles/libmap.dir
+/Users/celve/Repositories/Works/CMake-Demo-2022/build/map/CMakeFiles/edit_cache.dir
+/Users/celve/Repositories/Works/CMake-Demo-2022/build/map/CMakeFiles/rebuild_cache.dir
+/Users/celve/Repositories/Works/CMake-Demo-2022/build/set/CMakeFiles/libset.dir
+/Users/celve/Repositories/Works/CMake-Demo-2022/build/set/CMakeFiles/edit_cache.dir
+/Users/celve/Repositories/Works/CMake-Demo-2022/build/set/CMakeFiles/rebuild_cache.dir

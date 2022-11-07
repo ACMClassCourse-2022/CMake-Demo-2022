@@ -1,0 +1,2 @@
+add_library(libset set.cpp)
+target_include_directories(libset PUBLIC include)

@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.13)
+
+project(demo)
+
+add_subdirectory(int2048)
+add_subdirectory(map)
+add_subdirectory(set)
+
+add_executable(demo main.cpp)
+target_link_libraries(demo libset libmap libint)
